@@ -12,6 +12,9 @@
     echo 'WORD TO CENSOR: ' . $toCensor;
     $text = str_replace($toCensor, '***', $text);
     echo '<div>' . 'NEW PHRASE: ' . $text . '</div>';
+    echo '<div>' . 'NEW PHRASE LENGTH: ' . strlen($text) . '</div>';
+    var_dump($text);
+
 ?>
 
 
